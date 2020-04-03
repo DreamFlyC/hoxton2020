@@ -1,0 +1,41 @@
+server:
+  port: 9700
+
+spring:
+  application:
+    name: cloud-config-server-9700
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/DreamFlyC/springcloud-config.git
+          username: DreamFlyC
+          password: zhipeng5174@
+          search-paths:
+            - springcloud-config
+      enabled: true
+      label: master
+  #rabbitmq相关配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
+  endpoint:
+    health:
+      show-details: always

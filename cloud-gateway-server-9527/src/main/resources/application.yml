@@ -1,0 +1,55 @@
+server:
+  port: 9527
+
+spring:
+  application:
+    name: cloud-gateway-server-9527
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true       # 是否和服务注册与发现组件结合，设置为 true 后可以直接使用应用名称调用服务
+#      routes:                 # 路由（routes：路由，它由唯一标识（ID）、目标服务地址（uri）、一组断言（predicates）和一组过滤器组成（filters）。filters 不是必需参数。）
+#        - id: payment_route1  # 路由标识（id：标识，具有唯一性）   简单尝试
+#          uri: lb://cloud-payment-service       # 目标服务地址（uri：地址，请求转发后的地址）
+#          predicates:         # 路由条件（predicates：断言，匹配 HTTP 请求内容）
+#            - Path=/payment/get/**              #断言，路径相匹配的进行路由
+
+#        - id: payment_route2
+#          uri: lb://cloud-payment-service
+#          predicates:
+#            - Path=/payment/lb/**
+#            - After=2020-03-15T12:08:38.761+08:00[Asia/Shanghai]  #在这个时间之后
+#            - Before=2020-03-15T12:08:38.761+08:00[Asia/Shanghai] #在这个时间之前
+#            - Between=2020-03-15T12:08:38.761+08:00[Asia/Shanghai],2020-03-15T12:08:38.761+08:00[Asia/Shanghai] #在这个时间段之间
+#            - Cookie=username,czp  #带cookie才能访问，并且名为username，值为czp的，逗号前面为cookie名，后面为值（正则匹配）。
+#            - Cookie=oop,we
+#            - Header=X-Request-Id,\d+ #请求头要有X-Request-Id属性并且值为整数的正则表达式
+#            - Method=GET,POST
+#            - Query=username,\d+
+#完整配置
+#              - name: Cookie
+#                args:
+#                  name: username
+#                  value: czp
+
+logging:
+  level:
+    org.springframework.cloud.gateway.handler.RoutePredicateHandlerMapping: debug
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: gateway9527
+
+# 暴露端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

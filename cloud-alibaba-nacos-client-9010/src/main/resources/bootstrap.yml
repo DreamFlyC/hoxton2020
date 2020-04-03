@@ -1,0 +1,27 @@
+server:
+  port: 9010
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      server-addr: localhost:8848
+      discovery:
+        enabled: true
+      config:
+        enabled: true
+        file-extension: yaml  #指定yaml格式配置
+        group: TEST_GROUP
+        namespace: 4ddf7982-46a1-455d-b185-7ca429e5dc41
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+

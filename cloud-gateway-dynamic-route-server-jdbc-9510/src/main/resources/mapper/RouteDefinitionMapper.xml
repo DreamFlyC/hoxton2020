@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.czp.springcloud.mapper.RouteDefinitionMapper">
+
+    <resultMap type="com.czp.springcloud.entity.CustomerRouteDefinition" id="RouteDefinitionMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="routeId" column="route_id" jdbcType="VARCHAR"/>
+        <result property="uri" column="uri" jdbcType="VARCHAR"/>
+        <result property="order" column="order" jdbcType="INTEGER"/>
+        <result property="predicates" column="predicates" jdbcType="VARCHAR"/>
+        <result property="filters" column="filters" jdbcType="VARCHAR"/>
+        <result property="metadatas" column="metadatas" jdbcType="VARCHAR"/>
+        <result property="enable" column="enable" jdbcType="BOOLEAN"/>
+        <result property="deleteFlag" column="delete_flag" jdbcType="BOOLEAN"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="RouteDefinitionMap">
+        select
+          id, route_id, uri, `order`, predicates, filters, metadatas, enable, delete_flag, create_time, update_time
+        from hoxton2020.route_definition
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="RouteDefinitionMap">
+        select
+          id, route_id, uri, `order`, predicates, filters, metadatas, enable, delete_flag, create_time, update_time
+        from hoxton2020.route_definition
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="RouteDefinitionMap">
+        select
+          id, route_id, uri, `order`, predicates, filters, metadatas, enable, delete_flag, create_time, update_time
+        from hoxton2020.route_definition
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="routeId != null and routeId != ''">
+                and route_id = #{routeId}
+            </if>
+            <if test="uri != null and uri != ''">
+                and uri = #{uri}
+            </if>
+            <if test="order != null">
+                and `order` = #{order}
+            </if>
+            <if test="predicates != null and predicates != ''">
+                and predicates = #{predicates}
+            </if>
+            <if test="filters != null and filters != ''">
+                and filters = #{filters}
+            </if>
+            <if test="metadatas != null and metadatas != ''">
+                and metadatas = #{metadatas}
+            </if>
+            <if test="enable != null">
+                and enable = #{enable}
+            </if>
+            <if test="deleteFlag != null">
+                and delete_flag = #{deleteFlag}
+            </if>
+        </where>
+    </select>
+
+    <!--通过路由Id查询单条数据-->
+    <select id="queryByRouteId" resultMap="RouteDefinitionMap">
+        select
+            id, route_id, uri, `order`, predicates, filters, metadatas, enable, delete_flag, create_time, update_time
+        from hoxton2020.route_definition
+        where route_id = #{routeId}
+    </select>
+    <select id="findAll" resultType="com.czp.springcloud.entity.CustomerRouteDefinition">
+        select
+            id, route_id, uri, `order`, predicates, filters, metadatas, enable, delete_flag, create_time, update_time
+        from hoxton2020.route_definition
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into hoxton2020.route_definition(route_id, uri, `order`, predicates, filters, metadatas, enable, delete_flag, create_time, update_time)
+        values (#{routeId}, #{uri}, #{order}, #{predicates}, #{filters}, #{metadatas}, #{enable}, #{deleteFlag}, now(),now())
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update hoxton2020.route_definition
+        <set>
+            <if test="routeId != null and routeId != ''">
+                route_id = #{routeId},
+            </if>
+            <if test="uri != null and uri != ''">
+                uri = #{uri},
+            </if>
+            <if test="order != null">
+                `order` = #{order},
+            </if>
+            <if test="predicates != null and predicates != ''">
+                predicates = #{predicates},
+            </if>
+            <if test="filters != null and filters != ''">
+                filters = #{filters},
+            </if>
+            <if test="metadatas != null and metadatas != ''">
+                metadatas = #{metadatas},
+            </if>
+            <if test="enable != null">
+                enable = #{enable},
+            </if>
+            <if test="deleteFlag != null">
+                delete_flag = #{deleteFlag},
+            </if>
+            update_time = now(),
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from hoxton2020.route_definition where id = #{id}
+    </delete>
+
+    <!--通过路由Id删除数据-->
+    <delete id="deleteByRouteId">
+        delete from hoxton2020.route_definition where route_id = #{routeId}
+    </delete>
+
+</mapper>

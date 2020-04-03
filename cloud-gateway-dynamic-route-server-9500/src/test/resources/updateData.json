@@ -1,0 +1,30 @@
+{
+  "filters": [
+    {
+      "name": "StripPrefix",
+      "args": {
+        "_genkey_0": "0"
+      }
+    },
+    {
+      "name": "SetStatus",
+      "args": {
+        "_genkey_0": "500"
+      }
+    }
+  ],
+  "id": "CLOUD-PAYMENT-SERVICE-TEST",
+  "uri": "lb://cloud-payment-service",
+  "predicates": [
+    {
+      "name": "Path",
+      "args": {
+        "pattern": "/payment/lb/**"
+      }
+    }
+  ],
+  "metadatas": {
+    "enable": true,
+    "deleteFlag": false
+  }
+}

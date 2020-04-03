@@ -1,0 +1,20 @@
+server:
+  port: 7002
+
+spring:
+  application:
+    name: cloud-eureka-server-7002
+
+eureka:
+  instance:
+    hostname: eureka7002.com
+    prefer-ip-address: true
+  client:
+    #Eureka是为注册中心,是否需要将自己注册到注册中心上(默认为true),本次位单机部署,不需要设置为true;但是注册中心集群时候必须为true;因为集群时，其他Eureka需要从此Eureka中的节点上获取数据；
+    register-with-eureka: true
+    #Erueka是为注册中心，不需要检索服务信息;(表示是否从Eureka Server获取注册信息，默认为true。 如果这是一个单点的 Eureka Server，不需要同步其他节点的数据，可以设为false)
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+  server:
+    enable-self-preservation: true  #自我保护，默认开启，CAP理论的AP（C强一致性，A可用性，P分区容错性）

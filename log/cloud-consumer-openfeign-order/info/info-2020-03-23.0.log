@@ -1,0 +1,11 @@
+2020-03-23 00:04:26:356 INFO  [cloud-consumer-openfeign-order] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver   Resolving eureka endpoints via configuration
+2020-03-23 00:09:26:363 INFO  [cloud-consumer-openfeign-order] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver   Resolving eureka endpoints via configuration
+2020-03-23 00:14:26:365 INFO  [cloud-consumer-openfeign-order] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver   Resolving eureka endpoints via configuration
+2020-03-23 00:19:26:367 INFO  [cloud-consumer-openfeign-order] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver   Resolving eureka endpoints via configuration
+2020-03-23 00:24:26:369 INFO  [cloud-consumer-openfeign-order] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver   Resolving eureka endpoints via configuration
+2020-03-23 00:29:26:370 INFO  [cloud-consumer-openfeign-order] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver   Resolving eureka endpoints via configuration
+2020-03-23 00:34:26:372 INFO  [cloud-consumer-openfeign-order] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver   Resolving eureka endpoints via configuration
+2020-03-23 00:39:26:373 INFO  [cloud-consumer-openfeign-order] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver   Resolving eureka endpoints via configuration
+2020-03-23 00:44:26:375 INFO  [cloud-consumer-openfeign-order] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver   Resolving eureka endpoints via configuration
+2020-03-23 00:49:26:377 INFO  [cloud-consumer-openfeign-order] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver   Resolving eureka endpoints via configuration
+2020-03-23 00:54:26:378 INFO  [cloud-consumer-openfeign-order] [AsyncResolver-bootstrap-executor-0] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver   Resolving eureka endpoints via configuration

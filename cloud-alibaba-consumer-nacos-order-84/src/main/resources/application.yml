@@ -1,0 +1,22 @@
+server:
+  port: 84
+
+spring:
+  application:
+    name: cloud-alibaba-consumer-nacos-order-84
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: localhost:8080
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

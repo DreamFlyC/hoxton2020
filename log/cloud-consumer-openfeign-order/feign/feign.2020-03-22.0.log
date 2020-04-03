@@ -1,0 +1,126 @@
+2020-03-22 10:15:30:857 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:15:30:858 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:15:31:204 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (345ms)
+2020-03-22 10:15:31:204 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:15:31:204 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:15:31:204 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:15:31 GMT
+2020-03-22 10:15:31:204 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:15:31:204 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:15:31:206 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:16:23:549 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:16:23:550 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:16:23:558 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (6ms)
+2020-03-22 10:16:23:558 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:16:23:558 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:16:23:558 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:16:23 GMT
+2020-03-22 10:16:23:558 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:16:23:558 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:16:23:559 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:16:34:316 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:16:34:316 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:16:34:319 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (3ms)
+2020-03-22 10:16:34:320 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:16:34:320 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:16:34:320 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:16:34 GMT
+2020-03-22 10:16:34:320 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:16:34:320 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:16:34:320 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:49:24:633 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:49:24:633 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:49:24:644 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (10ms)
+2020-03-22 10:49:24:644 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:49:24:644 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:49:24:644 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:49:24 GMT
+2020-03-22 10:49:24:644 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:49:24:644 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:49:24:644 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:49:25:216 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-4] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:49:25:217 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-4] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:49:25:221 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-4] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (4ms)
+2020-03-22 10:49:25:221 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-4] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:49:25:221 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-4] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:49:25:221 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-4] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:49:24 GMT
+2020-03-22 10:49:25:221 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-4] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:49:25:221 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-4] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:49:25:221 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-4] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:49:25:384 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-6] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:49:25:384 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-6] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:49:25:388 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-6] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (2ms)
+2020-03-22 10:49:25:388 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-6] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:49:25:388 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-6] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:49:25:388 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-6] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:49:24 GMT
+2020-03-22 10:49:25:388 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-6] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:49:25:388 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-6] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:49:25:389 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-6] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:49:25:714 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:49:25:714 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:49:25:718 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (3ms)
+2020-03-22 10:49:25:718 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:49:25:718 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:49:25:718 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:49:25 GMT
+2020-03-22 10:49:25:718 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:49:25:718 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:49:25:718 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-9] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:49:25:890 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-5] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:49:25:890 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-5] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:49:25:894 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-5] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (3ms)
+2020-03-22 10:49:25:894 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-5] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:49:25:894 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-5] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:49:25:894 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-5] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:49:25 GMT
+2020-03-22 10:49:25:894 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-5] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:49:25:894 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-5] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:49:25:894 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-5] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:49:26:065 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:49:26:065 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:49:26:068 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (3ms)
+2020-03-22 10:49:26:068 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:49:26:068 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:49:26:069 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:49:25 GMT
+2020-03-22 10:49:26:069 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:49:26:069 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:49:26:069 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-3] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:49:26:225 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-7] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:49:26:225 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-7] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:49:26:229 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-7] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (3ms)
+2020-03-22 10:49:26:229 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-7] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:49:26:229 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-7] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:49:26:229 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-7] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:49:25 GMT
+2020-03-22 10:49:26:229 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-7] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:49:26:229 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-7] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:49:26:229 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-7] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:49:26:368 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:49:26:369 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:49:26:372 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (3ms)
+2020-03-22 10:49:26:372 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:49:26:373 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:49:26:373 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:49:25 GMT
+2020-03-22 10:49:26:373 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:49:26:373 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:49:26:373 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-8] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:49:26:538 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-2] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:49:26:538 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-2] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:49:26:541 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-2] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (3ms)
+2020-03-22 10:49:26:542 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-2] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:49:26:542 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-2] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:49:26:542 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-2] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:49:25 GMT
+2020-03-22 10:49:26:542 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-2] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:49:26:542 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-2] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:49:26:542 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-2] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:49:26:712 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-10] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:49:26:712 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-10] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:49:26:715 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-10] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (3ms)
+2020-03-22 10:49:26:715 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-10] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:49:26:715 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-10] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:49:26:715 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-10] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:49:25 GMT
+2020-03-22 10:49:26:716 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-10] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:49:26:716 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-10] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:49:26:716 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-10] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)
+2020-03-22 10:49:26:865 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> GET http://cloud-payment-service/payment/get/1 HTTP/1.1
+2020-03-22 10:49:26:865 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] ---> END HTTP (0-byte body)
+2020-03-22 10:49:26:869 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- HTTP/1.1 200 (3ms)
+2020-03-22 10:49:26:869 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] connection: keep-alive
+2020-03-22 10:49:26:869 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] content-type: application/json
+2020-03-22 10:49:26:869 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] date: Sun, 22 Mar 2020 02:49:26 GMT
+2020-03-22 10:49:26:869 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] keep-alive: timeout=60
+2020-03-22 10:49:26:869 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] transfer-encoding: chunked
+2020-03-22 10:49:26:870 DEBUG [cloud-consumer-openfeign-order] [http-nio-80-exec-1] com.czp.springcloud.feign.FeignOrderService   [FeignOrderService#getPaymentById] <--- END HTTP (64-byte body)

@@ -1,0 +1,65 @@
+spring:
+  application:
+    name: admin-server
+  # admin-server集成安全验证
+  security:
+    user:
+      name: czp
+      password: 742003942
+  #发送QQ邮件配置
+#  mail:
+#    default-encoding: UTF-8
+#    host: smtp.qq.com
+#    protocol: smtp
+#    #发送方的邮箱
+#    username: 742003942@qq.com
+#    #对于qq邮箱而言 密码指的就是发送方的授权码
+#    password: bvigrxvfsupmbahj
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true
+#          #端口号465或587
+#          port: 465
+#          #ssl配置
+#          ssl:
+#            #只处理SSL的连接,对于非SSL的连接不做处理
+#            enable: true
+#            socketFactory:
+#              class: javax.net.ssl.SSLSocketFactory
+#              fallback: false
+#          starttls:
+#            enable: true
+#            required: true
+  boot:
+    admin:
+      notify:
+        mail:
+          to: 2868525324@qq.com
+          from: 742003942@qq.com
+
+server:
+  port: 8769
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+    registry-fetch-interval-seconds: 5
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}
+    lease-renewal-interval-in-seconds: 10
+    health-check-url-path: /actuator/health
+    metadata-map:
+      user.name: ${spring.security.user.name}
+      user.password: ${spring.security.user.password}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS

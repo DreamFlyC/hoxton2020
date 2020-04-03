@@ -1,0 +1,47 @@
+server:
+  port: 9500
+
+spring:
+  application:
+    name: cloud-gateway-dynamic-route-server-9500
+  cloud:
+    gateway:
+      set-status:
+        original-status-header-name: original-http-status
+      enabled: true
+      discovery:
+        locator:
+          enabled: true
+
+  boot:
+    admin:
+      client:
+        url: http://localhost:8769
+        instance:
+          name: ${spring.application.name}
+          metadata:
+            user.name: czp
+            user.password: 742003942
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: gateway-dynamic-route-server
+
+# 暴露端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    org.springframework.cloud.gateway.handler.RoutePredicateHandlerMapping: debug
+    de.codecentric.boot.admin.client: debug
+    org.springframework.web: debug
