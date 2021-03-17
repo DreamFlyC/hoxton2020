@@ -51,6 +51,7 @@ public class GatewayConfig {
 		return jackson2JsonRedisSerializer;
 	}
 
+
 	/**
 	 * 获取请求用户ip作为限流key
 	 *
